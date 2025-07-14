@@ -1,8 +1,10 @@
 #include<stdio.h>
 #include<math.h>
 void main(){
-int a=10,b=20,c=30;
+int a, b, c;
 int d,r1,r2;
+printf("Enter the Coeficients: ");
+scanf("%d %d %d",&a, &b, &c\n);
 d=b*b-4*a*c;
 if(d>0){
 r1=(-b+sqrt(d))/2;
